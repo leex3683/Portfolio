@@ -1,6 +1,10 @@
 function AboutMe(){
     return (
-        <div>About Me</div>
+        <div>
+            <h2>About Me</h2>
+            <p>Puzzles have always fascinated me, and that's why I'm usually at a desk with my nose in a textbook, or on the wall at a bouldering gym. Activities like these challenge me to find solutions that aren't always intuitive or easy to find, and overcoming these obstacles is core to what I find enjoyment and fulfillment in.</p>
+        </div>
+        
     )
 }
 
