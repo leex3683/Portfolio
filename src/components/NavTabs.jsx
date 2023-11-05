@@ -4,17 +4,18 @@
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div>
-
+      <header>
         <img
-          className="rounded-circle img-fluid py-2"
+          className="rounded-circle border border-dark shadow-lg img-fluid m-3 "
           src="./src/assets/images/Portrait2.jpg"
           alt="Picture of Face"
-          width="200"
-          height="200"
+          width="180"
+          
         />
+      </header>
 
-      <ul className="nav border-bottom nav-pills nav-fill">
-        <li className="h1 nav-item">
+      <ul className="nav border-bottom nav-pills nav-fill my-3">
+        <li className="h1 pill-1 nav-item">
           <a
             href="#AboutMe"
             onClick={() => handlePageChange("AboutMe")}
@@ -27,7 +28,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             AboutMe
           </a>
         </li>
-        <li className="h1 nav-item">
+        <li className="h1 pill-2 nav-item">
           <a
             href="#Resume"
             onClick={() => handlePageChange("Resume")}
@@ -39,7 +40,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             Resume
           </a>
         </li>
-        <li className="h1 nav-item">
+        <li className="h1 pill-3 nav-item">
           <a
             href="#MyApps"
             onClick={() => handlePageChange("MyApps")}
@@ -51,7 +52,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             MyApps
           </a>
         </li>
-        <li className="h1 nav-item">
+        <li className="h1 pill-4 nav-item">
           <a
             href="#ContactMe"
             onClick={() => handlePageChange("ContactMe")}
