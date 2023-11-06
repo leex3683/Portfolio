@@ -7,7 +7,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       <header>
         <img
           className="rounded-circle border border-dark shadow-lg img-fluid m-3 "
-          src="./public/images/Portrait2.jpg"
+          src="./images/Portrait2.jpg"
           alt="Picture of Face"
           width="180"
           
