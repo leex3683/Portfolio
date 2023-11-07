@@ -5,6 +5,7 @@ const apps = [
     text: "Application to lookup your hardiness zone, and get plant information including scientific/common names, watering and sunlight needs, and more.",
     img: "./images/plant.avif",
     link: "https://abigailjoy93.github.io/plant-search-project/",
+    glink: "https://github.com/abigailjoy93/plant-search-project"
   },
   {
     id: 2,
@@ -12,13 +13,15 @@ const apps = [
     text: "A budgeting and spending tracker tool",
     img: "./images/Budget.avif",
     link: "https://lifesaver-473061b66352.herokuapp.com/",
+    glink: "https://github.com/liex149/life-saver-budget"
   },
   {
     id: 3,
-    name: "Custom Tools",
+    name: "Weather Checker",
     text: "Tools that could save you thousands of hours per year.",
     img: "./images/Excel.avif",
-    link: "./CustomReformattingTools.html",
+    link: "https://leex3683.github.io/WeatherChecker/",
+    glink:"https://github.com/leex3683/WeatherChecker",
   },
   {
     id: 4,
