@@ -4,8 +4,8 @@ function ListApps(props) {
       {/* Here we map over each grocery item and return a new array of `li` elements that contains the grocery name */}
       {/* When using map you must provide a unique key attribute to each item. Ours is `item.id` */}
       {props.apps.map((item) => (
-        <div className="my-3 shadow" key={item.id}>
-          <div className="card">
+        <div className="my-3  pb-5" key={item.id}>
+          <div className="card shadow">
             <img
               className="card-img-top"
               src={item.img}

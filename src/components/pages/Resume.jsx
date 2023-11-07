@@ -1,6 +1,6 @@
 function Resume() {
   return (
-    <div>
+    <div id="pb10">
         <h2>Resume</h2>
     <embed
       className="shadow-lg p-3 bg-white rounded container-fluid"

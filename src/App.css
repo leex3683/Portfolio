@@ -1,8 +1,9 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
   /* text-align: center; */
+  /* overflow-x: hidden; */
 }
 
 
@@ -92,4 +93,23 @@ header {
   background-position: center;
   
   height: 20vh;
+}
+
+#footer {
+  position: relative;
+  background: url('./assets/images/mountain2.avif') no-repeat;
+  background-size: cover;
+  background-position: center;
+  bottom: 0;
+  height: 5vh;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
+#pb10 {
+  padding-bottom: 5%
 }
