@@ -14,7 +14,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         />
       </header>
 
-      <ul className="nav border-bottom nav-pills nav-fill my-3">
+      <ul className="p-3 shadow nav border-bottom nav-pills nav-fill my-3">
         <li className="h1 pill-1 nav-item">
           <a
             href="#AboutMe"
