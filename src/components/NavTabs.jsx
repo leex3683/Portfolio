@@ -5,12 +5,12 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div>
       <header className="col d-flex align-items-center justify-content-center">
-        <img
+        <img 
         
           className="mx-auto rounded-circle border border-dark shadow-lg  m-3 "
           src="./images/Portrait2.jpg"
           alt="Picture of Face"
-       
+          id="img"
         />
       </header>
 

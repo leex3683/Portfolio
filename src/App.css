@@ -111,12 +111,13 @@ header {
 
 
 #pb10 {
-  padding-bottom: 5%
+  padding-bottom: 5%;
+  width: 90%;
 }
 
 ul{padding: 0 !important;}
 
-img {
+#img {
   max-width: auto;
   max-height: 90%;
 
