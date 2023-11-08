@@ -18,7 +18,7 @@ function ListApps(props) {
             </div>
 
             <div className="card-body">
-              <a href={item.glink} className="btn btn-primary btn-lg card-link btn btn-dark">
+              <a href={item.glink} className="my-3 btn btn-primary btn-lg card-link btn btn-dark">
                 Github Repo
               </a>
               <a href={item.link} className="btn btn-primary btn-lg card-link btn btn-dark">
