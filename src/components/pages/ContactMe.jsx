@@ -101,7 +101,7 @@ function ContactMe() {
 
   return (
     <div
-      className="form-control container text-center m-5 p-3 shadow"
+      className="form-control container m-5 p-3 shadow"
       onClick={handleLiveForm}
     >
       <form className="form" onSubmit={handleFormSubmit}>

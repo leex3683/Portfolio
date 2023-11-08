@@ -18,7 +18,7 @@ const apps = [
   {
     id: 3,
     name: "Weather Checker",
-    text: "Tools that could save you thousands of hours per year.",
+    text: "Check the weather.",
     img: "./images/weather.avif",
     link: "https://leex3683.github.io/WeatherChecker/",
     glink:"https://github.com/leex3683/WeatherChecker",

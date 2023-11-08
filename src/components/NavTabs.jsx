@@ -9,7 +9,8 @@ function NavTabs({ currentPage, handlePageChange }) {
           className="mx-auto rounded-circle border border-dark shadow-lg img-fluid m-3 "
           src="./images/Portrait2.jpg"
           alt="Picture of Face"
-          width="200px"
+          width="10%"
+          min-width="100px"
           
         />
       </header>

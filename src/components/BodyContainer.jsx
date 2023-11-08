@@ -27,7 +27,7 @@ export default function BodyContainer() {
   return (
     <div className="d-flex flex-column bd-highlight mb-3">
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      <main className="mx-3 ">{renderPage()}
+      <main className="mx-3 d-flex justify-content-center">{renderPage()}
             
       </main>
 <Footer/>
