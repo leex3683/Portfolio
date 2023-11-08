@@ -115,3 +115,9 @@ header {
 }
 
 ul{padding: 0 !important;}
+
+img {
+  max-width: auto;
+  max-height: 90%;
+
+}
